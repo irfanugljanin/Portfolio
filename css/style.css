@@ -60,7 +60,7 @@ h5,
 h6 {
   font-weight: 500;
   line-height: 1.4;
-  font-family: "Poppins";
+  font-family: "Manrope";
   color: #000;
 }
 
@@ -216,7 +216,7 @@ h6 {
 .waxon_tm_topbar .menu .links ul li a {
   text-decoration: none;
   color: #000;
-  font-family: "Poppins";
+  font-family: "Manrope";
   font-weight: 600;
   position: relative;
   overflow: hidden;
@@ -425,7 +425,7 @@ h6 {
   color: #000;
   display: inline-block;
   padding: 4px 0px;
-  font-family: "Poppins";
+  font-family: "Manrope";
   font-weight: 500;
 }
 .waxon_tm_mobile_menu .logo img {
@@ -532,7 +532,7 @@ h6 {
   color: transparent;
 }
 .waxon_tm_hero .content_inner span {
-  font-family: "Poppins";
+  font-family: "Manrope";
   font-weight: 600;
   display: inline-block;
   padding-top: 20px;
@@ -659,7 +659,7 @@ h6 {
   position: absolute;
   left: 0px;
   top: 0px;
-  font-family: "Poppins";
+  font-family: "Manrope";
   color: transparent;
   font-size: 150px;
   font-weight: 900;
@@ -669,7 +669,7 @@ h6 {
   -webkit-user-select: none;
 }
 .waxon_tm_about .name span {
-  font-family: "Poppins";
+  font-family: "Manrope";
   font-weight: 600;
   display: inline-block;
   padding-top: 10px;
@@ -1042,7 +1042,7 @@ h6 {
   position: absolute;
   left: -6px;
   top: 0px;
-  font-family: "Poppins";
+  font-family: "Manrope";
   color: transparent;
   font-size: 150px;
   font-weight: 900;
@@ -1089,7 +1089,7 @@ h6 {
 .waxon_tm_portoflio .portfolio_filter ul li a {
   text-decoration: none;
   color: #000;
-  font-family: "Poppins";
+  font-family: "Manrope";
   font-weight: 600;
   position: relative;
   overflow: hidden;
@@ -1414,14 +1414,14 @@ h6 {
   position: relative;
 }
 .waxon_tm_testimonials .short .author {
-  font-family: "Poppins";
+  font-family: "Manrope";
   font-size: 18px;
   color: #000;
   font-weight: 600;
   margin-bottom: 8px;
 }
 .waxon_tm_testimonials .short .job {
-  font-family: "Mulish";
+  font-family: "Manrope";
   font-size: 15px;
   color: #767676;
   font-weight: 400;
@@ -1596,7 +1596,7 @@ h6 {
   color: #000;
 }
 .waxon_tm_news ul li .details .date {
-  font-family: "Poppins";
+  font-family: "Manrope";
   font-size: 13px;
   color: #767676;
   font-style: italic;
@@ -1757,7 +1757,7 @@ h6 {
   margin-bottom: 9px;
 }
 .waxon_tm_modalbox_news .date {
-  font-family: "Poppins";
+  font-family: "Manrope";
   font-size: 13px;
   color: #767676;
   font-style: italic;
@@ -1851,7 +1851,7 @@ body.modal {
   align-items: center;
 }
 .waxon_tm_modalbox_news .news_share span {
-  font-family: "Poppins";
+  font-family: "Manrope";
   font-weight: 600;
   font-style: italic;
   padding-right: 20px;
@@ -2019,7 +2019,7 @@ body.modal {
 .waxon_tm_copyright .copyright_inner > ul > li span {
   display: block;
   color: #fff;
-  font-family: "Poppins";
+  font-family: "Manrope";
   font-weight: 500;
 }
 .waxon_tm_copyright .copyright_inner > ul > li span a {
@@ -2288,7 +2288,7 @@ body.modal {
 }
 .waxon_tm_settings .title {
   color: #fff;
-  font-family: "Poppins";
+  font-family: "Manrope";
   font-weight: 600;
   position: relative;
   display: inline-block;
@@ -2456,7 +2456,7 @@ body.dark .waxon_tm_settings .cursor li .svg,
   color: #000;
   font-size: 13px;
   font-weight: 600;
-  font-family: "Poppins";
+  font-family: "Manrope";
   display: block;
   position: relative;
   top: 2px;
