@@ -2014,7 +2014,7 @@ body.modal {
 /*	11) WAXON COPYRIGHT
 /*---------------------------------------------------*/
 
-.waxon_tm_copyright {
+#footer {
   width: 100%;
   height: auto;
   clear: both;
@@ -2022,56 +2022,56 @@ body.modal {
   background-color: #000;
   padding: 90px 0px 60px 0px;
 }
-.waxon_tm_copyright .copyright_inner {
+#footer .copyright_inner {
   width: 100%;
   height: auto;
   clear: both;
   float: left;
 }
-.waxon_tm_copyright .copyright_inner > ul {
+#footer .copyright_inner > ul {
   margin: 0px 0px 0px -30px;
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.waxon_tm_copyright .copyright_inner > ul > li {
+#footer .copyright_inner > ul > li {
   margin: 0px 0px 30px 0px;
   width: 25%;
   float: left;
   padding-left: 30px;
 }
-.waxon_tm_copyright .copyright_inner > ul > li span {
+#footer .copyright_inner > ul > li span {
   display: block;
   color: #fff;
   font-family: "Poppins";
   font-weight: 500;
 }
-.waxon_tm_copyright .copyright_inner > ul > li span a {
+#footer .copyright_inner > ul > li span a {
   text-decoration: none;
   color: #fff;
 }
-.waxon_tm_copyright .copyright_inner .social ul {
+#footer .copyright_inner .social ul {
   margin: 0px;
   list-style-type: none;
   position: relative;
   top: 4px;
 }
-.waxon_tm_copyright .copyright_inner .social ul li {
+#footer .copyright_inner .social ul li {
   margin: 0px 20px 0px 0px;
   display: inline-block;
 }
-.waxon_tm_copyright .copyright_inner .social ul li:last-child {
+#footer .copyright_inner .social ul li:last-child {
   margin-right: 0px;
 }
-.waxon_tm_copyright .copyright_inner .social ul li a {
+#footer .copyright_inner .social ul li a {
   text-decoration: none;
   color: #fff;
   position: relative;
   overflow: hidden;
   display: inline-block;
 }
-.waxon_tm_copyright .copyright_inner .social ul li a .first {
+#footer .copyright_inner .social ul li a .first {
   position: absolute;
   transform: translateY(100%);
 
@@ -2081,7 +2081,7 @@ body.modal {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.waxon_tm_copyright .copyright_inner .social ul li a .second {
+#footer .copyright_inner .social ul li a .second {
   position: relative;
   display: block;
 
@@ -2091,13 +2091,13 @@ body.modal {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.waxon_tm_copyright .copyright_inner .social ul li a:hover .first {
+#footer .copyright_inner .social ul li a:hover .first {
   transform: translateY(0);
 }
-.waxon_tm_copyright .copyright_inner .social ul li a:hover .second {
+#footer .copyright_inner .social ul li a:hover .second {
   transform: translateY(-100%);
 }
-.waxon_tm_copyright .copyright_inner .social .svg {
+#footer .copyright_inner .social .svg {
   color: #fff;
   width: 17px;
   height: 17px;
