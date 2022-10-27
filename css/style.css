@@ -834,6 +834,11 @@ h6 {
   color: #000;
   font-size: 20px;
 }
+
+.about-me_paragraph {
+  padding-top: 33px;
+}
+
 .waxon_progress {
   width: 100%;
   height: auto;
@@ -1268,6 +1273,7 @@ h6 {
   right: 0px;
   z-index: 4;
 }
+
 .waxon_tm_portoflio .portfolio_inner ul li .list_inner .image {
   position: relative;
   margin-bottom: 20px;
@@ -1313,7 +1319,26 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.waxon_tm_portoflio .portfolio_inner ul li .title span a {
+
+.waxon_tm_portoflio .portfolio_inner ul li .title h3 a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.waxon_tm_portoflio .portfolio_inner ul li .title h3 a:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.waxon_tm_portoflio .portfolio_inner ul li .title span p {
   text-decoration: none;
   color: #767676;
   position: relative;
@@ -2766,6 +2791,7 @@ body.dark .waxon_tm_settings .cursor li .svg,
   .waxon_tm_modalbox_news .details .title {
     font-size: 21px;
   }
+
   .waxon_tm_modalbox_about .counter ul {
     margin: 0px;
   }
