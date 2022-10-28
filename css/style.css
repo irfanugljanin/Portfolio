@@ -2816,4 +2816,12 @@ body.dark .waxon_tm_settings .cursor li .svg,
     width: 100%;
     padding-left: 0px;
   }
+  .scroll-img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 70%;
+    left: 40%;
+    animation: rotation 8s infinite linear;
+  }
 }
