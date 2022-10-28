@@ -2748,6 +2748,24 @@ body.dark .waxon_tm_settings .cursor li .svg,
   }
 }
 
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scroll-img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 70%;
+  left: 90%;
+  animation: rotation 8s infinite linear;
+}
+
 @media (max-width: 768px) {
   .waxon_tm_hero .content_inner h3 {
     font-size: 50px;
