@@ -1,29 +1,4 @@
 @charset "utf-8";
-/*
-/*	Copyright (c) 2020 Marketify
-/*	Author: Marketify
-/*	This file is made for CURRENT TEMPLATE
-
-01) WAXON BASE
-02) WAXON TOPBAR
-03) WAXON MOBILE MENU
-04) WAXON HERO
-05) WAXON ABOUT
-06) WAXON SERVICES
-07) WAXON PORTFOLIO
-08) WAXON TESTIMONIALS
-09) WAXON NEWS
-10) WAXON CONTACT
-11) WAXON COPYRIGHT
-12) WAXON CURSOR
-13) WAXON GLITCH EFFECT
-14) WAXON PARTICLE EFFECT
-15) WAXON SLIDER
-16) WAXON MEDIA QUERIES (FOR SMALL DEVICES)
-
-/*---------------------------------------------------*/
-/*	01) WAXON BASE
-/*---------------------------------------------------*/
 
 html {
   overflow-x: hidden;
@@ -102,6 +77,24 @@ h6 {
   -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scroll-img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 70%;
+  left: 90%;
+  animation: rotation 8s infinite linear;
 }
 
 @media (max-width: 1040px) {
@@ -2746,33 +2739,6 @@ body.dark .waxon_tm_settings .cursor li .svg,
   .mouse-cursor {
     display: none;
   }
-
-  .scroll-img {
-    width: 70px;
-    height: 70px;
-    position: relative;
-    top: 70%;
-    left: 40%;
-    animation: rotation 8s infinite linear;
-  }
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.scroll-img {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  top: 70%;
-  left: 90%;
-  animation: rotation 8s infinite linear;
 }
 
 @media (max-width: 768px) {
